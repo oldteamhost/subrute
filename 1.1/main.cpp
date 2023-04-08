@@ -336,8 +336,8 @@ void help_menu(){
     std::cout << "  -v, --version         Display version information and dependencies.\n";
     std::cout << "  --db, --debug         Saving and outputting even pages that are not working.\n";
     std::cout << "  -T, --timeout<MS>     Set a delay when receiving a page.\n";
-    std::cout << "  --protocol <PROTOCOL> Set custom web protocol.\n\n";
-    std::cout << "  --error               Display errors.\n";
+    std::cout << "  --protocol <PROTOCOL> Set custom web protocol.\n";
+    std::cout << "  --error               Display errors.\n\n";
 
     std::cout << "arguments save:\n";
     std::cout << "  --txt <FILE>          Save output to txt.\n\n";
