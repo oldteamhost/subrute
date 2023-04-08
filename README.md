@@ -53,15 +53,12 @@ arguments user:
 
 ## Example
 ```
-./lastn lomaster,lol --txt result.txt
+./sbrute google.com,yandex.ru --db --txt out.txt
 
-    Searches for pages called lomaster and lol.
-    And then saves (TXT).
+    Specifies two targets for Brutforce, enabled debug mode, -
+    which allows you to save even if the links do not work. 
+    And the save to the file out.txt is enabled
     
-./lastn lomaster --txt result.txt --db
-
-    Searches for pages called lomaster.
-    And then saves (even non-working ones) in txt.
 ```
 
 ## Compile
@@ -71,8 +68,8 @@ arguments user:
 - DEBIAN      
         **sudo apt install curl**
 
-- git clone https://github.com/Lomasterrrr/LastTrench.git
-- cd LastTrench/5.7
+- git clone https://github.com/Lomasterrrr/subrute
+- cd subrute/1.1
 - make
 
 #### Dependencies:
