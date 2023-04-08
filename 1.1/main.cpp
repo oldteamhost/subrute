@@ -326,7 +326,7 @@ int main(int argc, char** argv){
 }
 
 void help_menu(){
-    std::cout << "Subrute: brute force dns.\n\n";
+    std::cout << "Subrute: bruteforce URL.\n\n";
 
     std::cout << "usage: " << run << " [TARGETS (1,2,3) ] [ARGUMENTS]\n\n\n";
 
