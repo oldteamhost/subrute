@@ -26,7 +26,7 @@ arguments save:
   --txt <FILE>          Save output to txt.
 
 arguments user:
-  -s, --set <MODE>      Set style link (see github).
+  --set <MODE>          Set style link (see github).
   --base <PATH>         Specify your file with links.
   --user-agent <agent>  Set your user-agent.
 ```
