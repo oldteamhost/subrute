@@ -50,7 +50,7 @@ arguments user:
 --proxy socks5h://ip:port
       SOCKS5 Proxy.
 ```
-## Mode
+## Modes
 ```
   MODE - a
     prtcl://dns + paths
