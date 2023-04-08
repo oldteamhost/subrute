@@ -50,7 +50,16 @@ arguments user:
 --proxy socks5h://ip:port
       SOCKS5 Proxy.
 ```
-
+## Mode
+```
+  MODE - a
+    prtcl://dns + paths
+      Suitable for searching the admin panel.
+      
+  MODE - b
+    prtcl://paths + dns
+      Suitable for finding hidden dns, such as cloudflare.
+```
 ## Example
 ```
 ./sbrute google.com,yandex.ru --db --txt out.txt
