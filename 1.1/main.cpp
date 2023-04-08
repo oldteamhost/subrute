@@ -31,7 +31,7 @@ int main(int argc, char** argv){
     // if custom_base
     std::string custom_path_result;
 
-    const char* short_options = "hvT::p:Ps";
+    const char* short_options = "hvT::p:";
     const struct option long_options[] = {
         {"help", no_argument, 0, 'h'},
         {"version", no_argument, 0, 'v'}, 
@@ -43,7 +43,7 @@ int main(int argc, char** argv){
         {"base", required_argument, 0, 8},
         {"user-agent", required_argument, 0, 9},
         {"error", no_argument, 0, 5},
-        {"set", required_argument, 0, 's'},
+        {"set", required_argument, 0, 6},
         {0,0,0,0}}; 
 
         if (argc <= 1){
@@ -78,7 +78,7 @@ int main(int argc, char** argv){
                         waring_timeout();
                         opa.timeout = "80";
                     break;
-                case 's':
+                case 6:
                     opa.custom_active = 1;
                     custom_convert = optarg;
                     break;
@@ -343,7 +343,7 @@ void help_menu(){
     std::cout << "  --txt <FILE>          Save output to txt.\n\n";
 
     std::cout << "arguments user:\n";
-    std::cout << "  -s, --set <MODE>      Set style link (see github).\n";
+    std::cout << "  --set <MODE>          Set style link (see github).\n";
     std::cout << "  --base <PATH>         Specify your file with links.\n";
     std::cout << "  --user-agent <agent>  Set your user-agent.\n";
 }
