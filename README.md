@@ -78,8 +78,8 @@ arguments user:
 - DEBIAN      
         **sudo apt install curl**
 
-- git clone https://github.com/Lomasterrrr/subrute
-- cd subrute/1.1
+- git clone https://github.com/Lomasterrrr/subrute.git
+- cd subrute
 - make
 
 #### Dependencies:
