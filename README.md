@@ -53,7 +53,7 @@ arguments user:
 ```
 ## Modes
 ```
-  MODE - a
+  MODE - a (default)
     prtcl://dns + paths
       Suitable for searching the admin panel.
       
