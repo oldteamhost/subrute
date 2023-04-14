@@ -69,6 +69,13 @@ arguments user:
     which allows you to save even if the links do not work. 
     And the save to the file out.txt is enabled
     
+./sbrute google.com --db --set b --base sub.txt
+
+  Bruteforces additional domains (dns)
+  by google.com domain, shows even unsuccessful 
+  results, uses bypass mode and database with 
+  additional domains (sub.txt).
+    
 ```
 
 ## Compile
