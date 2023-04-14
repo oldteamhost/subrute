@@ -5,7 +5,8 @@
 - Works with http https
 - Can save results to txt
 - Runs very fast
-
+- Txt bases
+  - The base will be located only if it is in the folder "bases"!
 - [Video test - open](https://www.youtube.com/watch?v=YwNBTRjlamE&feature=youtu.be&ab_channel=lomasterlive)
 
 ## Using
